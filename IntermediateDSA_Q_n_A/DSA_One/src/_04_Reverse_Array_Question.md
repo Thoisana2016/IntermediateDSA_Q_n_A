@@ -37,7 +37,6 @@ Input 2:
 
 A = [1,1,10]
 
-
 Example Output
 
 Output 1:

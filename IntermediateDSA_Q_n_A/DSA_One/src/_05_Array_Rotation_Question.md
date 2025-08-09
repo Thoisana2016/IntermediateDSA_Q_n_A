@@ -22,7 +22,6 @@ Output Format
 
 Return the array A after rotating it B times to the right
 
-
 Example Input
 
 Input 1:

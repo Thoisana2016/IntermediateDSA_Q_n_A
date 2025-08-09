@@ -9,6 +9,7 @@ public class _04_Reverse_Array {
         }
         return arr;
     }
+
     public static void main(String[] args) {
         int[] arr = {1,1,10};
         System.out.println("=== ARRAY BEFORE REVERSE ===");

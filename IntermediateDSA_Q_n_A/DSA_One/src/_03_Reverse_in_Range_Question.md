@@ -36,7 +36,6 @@ A = [2, 5, 6]
 B = 0
 C = 2
 
-
 Example Output
 
 Output 1:
