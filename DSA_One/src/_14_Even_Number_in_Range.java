@@ -13,7 +13,7 @@ public class _14_Even_Number_in_Range {
         for (int i = 1; i < evenArray.length; i++){
             evenArray[i] = evenArray[i-1] + evenArray[i];
         }
-        
+
         int[] res = new int[range.length];
         for (int i = 0; i <range.length; i++){
             int si = range[i][0];
