@@ -30,3 +30,75 @@ arr.pop(0)
  Result: [2, 3, 4]
 
     All elements are shifted → O(N)
+
+==================
+
+Q6. Problems on 1D Arrays-2 MCQ D
+
+What will be the output of the following code?
+
+class Main {
+static void fun(int[]arr) {
+arr[3] = 98;
+return;
+}
+
+public static void main(String args[]) {
+int[]arr = {10,20,30,40,50};
+fun(arr);
+System.out.println(arr[3]);
+}
+}
+Option:
+40
+
+30
+
+98
+
+Error
+
+ANS : 98
+Explanation:
+
+    An array arr = {10, 20, 30, 40, 50} is created in main().
+
+    Java passes arrays by reference (actually, by value of reference), meaning the fun() method receives a reference to the same array object.
+
+    Inside fun(arr), the 4th element (index 3) is updated to 98.
+
+So after calling fun(arr), arr[3] is now 98.
+
+================
+
+### Prefix Sum Formula
+
+The prefix sum formula for an array A of N integers is given by :-
+
+prefSum[i] = prefSum[i] + A[i]
+
+prefSum[i] = prefSum[i - 1] + A[i]
+
+prefSum[i - 1] = prefSum[i] + A[i]
+
+prefSum[i - 1] = prefSum[i - 1] + A[i]
+
+Ans: prefSum[i] = prefSum[i - 1] + A[i]
+
+================
+
+
+Q2. Time Complexity of Prefix Sum
+
+What is the time complexity of creating the prefix sum array of an array A of N integers ?
+O(1)
+
+O(N)
+
+O(N^2)
+
+O(N^3)
+Ans: O(N)
+
+==============
+

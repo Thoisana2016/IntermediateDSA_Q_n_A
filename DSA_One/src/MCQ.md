@@ -68,3 +68,37 @@ Explanation:
     Inside fun(arr), the 4th element (index 3) is updated to 98.
 
 So after calling fun(arr), arr[3] is now 98.
+
+================
+
+### Prefix Sum Formula
+
+The prefix sum formula for an array A of N integers is given by :-
+
+prefSum[i] = prefSum[i] + A[i]
+
+prefSum[i] = prefSum[i - 1] + A[i]
+
+prefSum[i - 1] = prefSum[i] + A[i]
+
+prefSum[i - 1] = prefSum[i - 1] + A[i]
+
+Ans: prefSum[i] = prefSum[i - 1] + A[i]
+
+================
+
+
+Q2. Time Complexity of Prefix Sum
+
+What is the time complexity of creating the prefix sum array of an array A of N integers ?
+O(1)
+
+O(N)
+
+O(N^2)
+
+O(N^3)
+Ans: O(N)
+
+==============
+
