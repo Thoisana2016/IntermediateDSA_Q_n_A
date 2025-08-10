@@ -147,3 +147,19 @@ What is the sum of the original array from index 1 to 2 (0-based) ?
 
 -5
 Ans: 3
+
+=============
+
+Q1. Find all the subarrays
+
+Given A = [1, -2, 5, 2, -1, 6]. Choose all the valid subarrays of the array
+[5, 2, -1]
+
+[-2, -1, 6]
+
+[1, -2, 5, 2]
+
+[6]
+
+Ans: all are correct except this [-2, -1, 6]
+
