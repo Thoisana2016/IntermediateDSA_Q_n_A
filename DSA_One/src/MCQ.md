@@ -102,3 +102,48 @@ Ans: O(N)
 
 ==============
 
+Q1. Prefix Sum - I
+
+Given the prefix sum of an array, prefSum = [-2, 4, 1, 5, 2]
+What is the sum of the original array from index 0 to 2 (0-based) ?
+
+3
+
+4
+
+1
+
+5
+Ans : 1
+
+================
+
+Q2. Prefix Sum - II
+
+Given the prefix sum of an array, prefSum = [-2, 4, 1, 5, 2]
+
+What is the sum of the original array from index 2 to 4 (0-based) ?
+2
+
+1
+
+-2
+
+8
+Ans: -2
+
+================
+
+Q3. Prefix Sum - III
+
+Given the prefix sum of an array, prefSum = [-2, 4, 1, 5, 2]
+
+What is the sum of the original array from index 1 to 2 (0-based) ?
+5
+
+-3
+
+3
+
+-5
+Ans: 3
