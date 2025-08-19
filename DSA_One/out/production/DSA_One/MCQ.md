@@ -163,3 +163,28 @@ Given A = [1, -2, 5, 2, -1, 6]. Choose all the valid subarrays of the array
 
 Ans: all are correct except this [-2, -1, 6]
 
+======================
+
+Q5. Is the bulb ON - I
+
+Say the bulb is ON initially, after pressing the switch even number of times, what will be the final state of the bulb?
+
+ON
+
+OFF
+
+Can't be determined
+Ans: ON
+
+======================
+Q Is the bulb ON - II
+
+Say the bulb is ON initially, after pressing the switch odd number of times, what will be the final state of the bulb?
+
+ON 
+
+OFF
+
+Can't be determined
+
+Ans: Off
