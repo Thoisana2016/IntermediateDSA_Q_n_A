@@ -188,3 +188,43 @@ OFF
 Can't be determined
 
 Ans: Off
+
+====================
+
+Q2. Count Subarrays starting with 'a'
+
+Given a string A = "amazon", find the number of subarrays starting with the character 'a'.
+4
+
+6
+
+10
+
+12
+Ans: (10 guess)
+========================
+
+Q5. Is the bulb ON - I
+
+Say the bulb is ON initially, after pressing the switch even number of times, what will be the final state of the bulb?
+ON
+
+OFF
+
+Can't be determined
+Ans : 
+
+=========================
+Q6. Is the bulb ON - II
+
+Say the bulb is ON initially, after pressing the switch odd number of times, what will be the final state of the bulb?
+ON
+
+OFF
+
+Can't be determined
+Ans: 
+==========================
+
+
+
