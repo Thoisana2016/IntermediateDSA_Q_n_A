@@ -225,6 +225,93 @@ OFF
 Can't be determined
 Ans: 
 ==========================
+## Topic: SubArray
+Q1. Total Number of Subarrays
+
+Given an array of size 21, find the total number of subarrays of the arra
+
+254
+231
+369
+441
+
+And: 
+
+===========
+Q2. Time and Space Complexity - I
+
+What is the time and space complexity for printing the sum of each subarray?
+
+void printSums(int ar[]){
+int n = ar.length;
+for(int i = 0 ; i < n ; i++){
+int sum = 0;
+for(int j = i ; j < n ; j++){
+sum = sum + ar[j];
+print(sum)
+}
+}
+}
+
+TC = O(N) , SC = O(1)\
+TC = O(N^2) , SC = O(1)\
+TC = O(N) , SC = O(N)\
+TC = O(N^2) , SC = O(N)\
+
+Ans: 
+
+=====================
+
+Q3. Time and Space Complexity - II
+Solved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Find the time and space complexity for printing sum of each subarray?
 
 
+void printSums(int ar[]){
 
+int n = ar.length;
+
+int pf[N];
+
+pf[0] = ar[0];
+
+for(int i = 1 ; i < n ; i++){
+
+pf[i] = pf[i - 1] + ar[i];
+
+}
+
+for(int i = 0 ; i < n ; i++){
+
+for(int j = i ; j < n ; j++){
+
+if(i == 0){
+
+print(pf[j]);
+
+}
+
+else{
+
+print(pf[j] - pf[i - 1]);
+
+}
+
+}
+
+}
+
+}
+
+TC = O(N) , SC = O(N)
+
+TC = O(N^2) , SC = O(N)
+
+TC = O(N) , SC = O(N^2)
+
+TC = O(N^2) , SC = O(N^2)
+
+ANS:
